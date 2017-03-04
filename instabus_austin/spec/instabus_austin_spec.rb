@@ -6,6 +6,6 @@ RSpec.describe InstabusAustin do
   end
 
   it "does something useful" do
-    expect(false).to eq(true)
+    expect(InstabusAustin.stops(1,0)).to_not eq(nil)
   end
 end
